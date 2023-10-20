@@ -1,0 +1,17 @@
+.card-con{
+    display:flex;
+    padding: 8rem;
+}
+@media (max-width: 1000px) {
+    .card-con{
+        display: block;
+        padding: 0;
+    }
+  }
+  .Chart{
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 21rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    background-color: white;
+  }

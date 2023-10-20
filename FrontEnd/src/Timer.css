@@ -1,0 +1,20 @@
+.Timer{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius:1rem 1rem 1rem 1rem;
+}
+#Timer1{
+  margin-right: 3px;
+  padding-left: 5px;
+}
+#Timer2{
+    margin-right: 3px;
+    
+}
+#Timer3{
+    margin-right: 3px;
+}
+#Timer4{
+    
+}

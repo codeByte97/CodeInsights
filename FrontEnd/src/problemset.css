@@ -1,0 +1,107 @@
+ .SignupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+  }
+  
+  .SignupBox {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width:60%;
+  }
+  input:focus {
+    border: 3px solid #9EDDFF;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #Sagnup-btn{
+    display: block;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #Sagnup-btn:hover{
+    color: black;
+    background-color: white;
+  }
+  #Signup-btn {
+    display: block;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #Signup-btn:hover{
+    color: black;
+    background-color: white;
+  }
+    .labels {
+        display: flex;
+    }
+    .labels label{
+        padding: 1rem;
+    }
+.datetime-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.datetime-picker label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.custom-datetime-picker {
+  width: 100%;
+}
+
+.custom-datetime-picker .react-datetime-picker__calendar-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.custom-datetime-picker .react-datetime-picker__inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.custom-datetime-picker .react-datetime-picker__inputGroup .react-datetime-picker__input {
+  width: 100%;
+}
+
+.custom-datetime-picker .react-datetime-picker__inputGroup .react-datetime-picker__time {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 10px;
+}

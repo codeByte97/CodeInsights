@@ -1,0 +1,39 @@
+.Navbar-mobile {
+    position: fixed;
+    background-color: white;
+    height: 6rem;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid black;
+}
+.NavLink-style-mobile {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem;
+}
+.Logo-mobile {
+    padding: 0.5rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+.NavLink-mobile {
+    list-style: none;
+}
+.NavLink-mobile li {
+    padding: 1rem;
+    color: black;
+}
+.Menu-toogle {
+    width: 85%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    margin-left: 6%;
+    background-color: white;
+    position: absolute;
+    top: 6rem;
+    z-index: 1;
+}

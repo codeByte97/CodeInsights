@@ -1,0 +1,16 @@
+*{
+   text-decoration: none;
+}
+body{
+   background-color: #9EDDFF;
+}
+.Animation{
+   position: absolute;
+   top: 30%;
+   left: 30%;
+}
+.Animation-lessthan{
+   position: absolute;
+   top: 30%;
+   left: 15%;
+}
